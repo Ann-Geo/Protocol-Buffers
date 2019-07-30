@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
-	"vs_workspace/Protobuf_course/EX3/addressbookpb"
+	"github.com/Ann-Geo/Protobuf_course/EX3/addressbookpb"
 
 	"github.com/golang/protobuf/proto"
 )
