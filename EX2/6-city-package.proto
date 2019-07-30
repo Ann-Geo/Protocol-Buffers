@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package package.city;
+
+message City {
+    string CityName = 1;
+    string Zipcode = 2;
+    string Country = 3;
+}

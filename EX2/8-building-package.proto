@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "EX2/7-street-package.proto";
+
+package package.building;
+
+message Building {
+    string BuildingName = 1;
+    int32 BuildingNumber = 2;
+    package.street.Street street = 3;
+}

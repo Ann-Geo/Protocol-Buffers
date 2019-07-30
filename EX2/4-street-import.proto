@@ -1,0 +1,8 @@
+syntax ="proto3";
+
+import "EX2/3-city-import.proto";
+
+message Street {
+    string StreetName = 1;
+    City city = 2;
+}
